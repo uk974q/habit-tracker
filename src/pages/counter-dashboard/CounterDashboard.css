@@ -1,0 +1,38 @@
+.counter-dashboard-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh ;
+}
+
+.card-counters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counters{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.button-groups{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-groups .button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+.button-groups #incrementSuccess{
+    background-color: darkgreen;
+}
+.button-groups #incrementFailure{
+    background-color: red;
+}
+.button-groups #reset{
+    background-color: black;
+}
